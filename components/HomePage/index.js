@@ -14,7 +14,7 @@ export default function HomePage({ data }) {
             height={150}
           />
           <p>BAND: {record.band_name}</p>
-          <p>GERNE:{record.genre}</p>
+          <p>GENRE:{record.genre}</p>
           <p>ALBUM:{record.album_name}</p>
           <p>YEAR:{record.year}</p>
           <p>Price:{record.price}€</p>
