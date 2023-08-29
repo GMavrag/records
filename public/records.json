@@ -1,0 +1,98 @@
+[
+  {
+    "band_name": "The Beatles",
+    "genre": "Rock",
+    "album_name": "Abbey Road",
+    "year": 1969,
+    "price": 15.99,
+    "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg"
+  },
+  {
+    "band_name": "Pink Floyd",
+    "genre": "Progressive Rock",
+    "album_name": "The Dark Side of the Moon",
+    "year": 1973,
+    "price": 12.99,
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/The_Dark_Side_of_the_Moon_Cover.svg/220px-The_Dark_Side_of_the_Moon_Cover.svg.png"
+  },
+  {
+    "band_name": "Michael Jackson",
+    "genre": "Pop",
+    "album_name": "Thriller",
+    "year": 1982,
+    "price": 10.99,
+    "photo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/55/Michael_Jackson_-_Thriller.png/220px-Michael_Jackson_-_Thriller.png"
+  },
+  {
+    "band_name": "Led Zeppelin",
+    "genre": "Rock",
+    "album_name": "Led Zeppelin IV",
+    "year": 1971,
+    "price": 14.99,
+    "photo": "https://upload.wikimedia.org/wikipedia/el/thumb/7/77/LedZeppelinFourSymbols.jpg/220px-LedZeppelinFourSymbols.jpg"
+  },
+  {
+    "band_name": "Queen",
+    "genre": "Rock",
+    "album_name": "A Night at the Opera",
+    "year": 1975,
+    "price": 11.99,
+    "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg"
+  },
+  {
+    "band_name": "Nirvana",
+    "genre": "Grunge",
+    "album_name": "Nevermind",
+    "year": 1991,
+    "price": 9.99,
+    "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg"
+  },
+  {
+    "band_name": "The Rolling Stones",
+    "genre": "Rock",
+    "album_name": "Exile on Main St.",
+    "year": 1972,
+    "price": 13.99,
+    "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg"
+  },
+  {
+    "band_name": "David Bowie",
+    "genre": "Rock",
+    "album_name": "The Rise and Fall of Ziggy Stardust",
+    "year": 1972,
+    "price": 12.99,
+    "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg"
+  },
+  {
+    "band_name": "Bob Marley & The Wailers",
+    "genre": "Reggae",
+    "album_name": "Legend",
+    "year": 1984,
+    "price": 11.99,
+    "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg"
+  },
+  {
+    "band_name": "U2",
+    "genre": "Rock",
+    "album_name": "The Joshua Tree",
+    "year": 1987,
+    "price": 14.99,
+    "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg"
+  },
+  {
+    "band_name": "Prince",
+    "genre": "Pop",
+    "album_name": "Purple Rain",
+    "year": 1984,
+    "price": 10.99,
+    "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg"
+  },
+  {
+    "band_name": "Radiohead",
+    "genre": "Alternative Rock",
+    "album_name": "OK Computer",
+    "year": 1997,
+    "price": 11.99,
+    "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg"
+  }
+]
