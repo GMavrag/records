@@ -6,7 +6,8 @@
     "album_name": "Abbey Road",
     "year": 1969,
     "price": 15.99,
-    "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg"
+    "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg",
+    "description": "Abbey Road is the eleventh studio album by the English rock band The Beatles, released in 1969. It is widely regarded as one of their greatest works. The album features iconic tracks such as 'Come Together' and 'Here Comes the Sun.'"
   },
   {
     "id": "pink-floyd-dark-side-moon",
@@ -15,8 +16,10 @@
     "album_name": "The Dark Side of the Moon",
     "year": 1973,
     "price": 12.99,
-    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/The_Dark_Side_of_the_Moon_Cover.svg/220px-The_Dark_Side_of_the_Moon_Cover.svg.png"
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/The_Dark_Side_of_the_Moon_Cover.svg/220px-The_Dark_Side_of_the_Moon_Cover.svg.png",
+    "description": "The Dark Side of the Moon is the eighth studio album by English rock band Pink Floyd, released in 1973. It is known for its progressive rock sound and thematic concept. The album is recognized for its iconic cover art and tracks like 'Money' and 'Time.'"
   },
+
   {
     "id": "michael-jackson-thriller",
     "band_name": "Michael Jackson",
@@ -24,7 +27,8 @@
     "album_name": "Thriller",
     "year": 1982,
     "price": 10.99,
-    "photo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/55/Michael_Jackson_-_Thriller.png/220px-Michael_Jackson_-_Thriller.png"
+    "photo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/55/Michael_Jackson_-_Thriller.png/220px-Michael_Jackson_-_Thriller.png",
+    "description": "Thriller is the sixth studio album by American singer Michael Jackson, released in 1982. The album became a cultural phenomenon with its groundbreaking music videos, including the iconic 'Thriller' video. It features hits like 'Billie Jean' and 'Beat It.'"
   },
   {
     "id": "led-zeppelin-led-zeppelin-iv",
@@ -33,8 +37,10 @@
     "album_name": "Led Zeppelin IV",
     "year": 1971,
     "price": 14.99,
-    "photo": "https://upload.wikimedia.org/wikipedia/el/thumb/7/77/LedZeppelinFourSymbols.jpg/220px-LedZeppelinFourSymbols.jpg"
+    "photo": "https://upload.wikimedia.org/wikipedia/el/thumb/7/77/LedZeppelinFourSymbols.jpg/220px-LedZeppelinFourSymbols.jpg",
+    "description": "Led Zeppelin IV, also known as untitled, is the fourth studio album by the English rock band Led Zeppelin, released in 1971. The album includes iconic tracks like 'Stairway to Heaven' and 'Black Dog.' It showcases the band's diverse musical influences."
   },
+
   {
     "id": "queen-a-night-at-the-opera",
     "band_name": "Queen",
@@ -42,8 +48,10 @@
     "album_name": "A Night at the Opera",
     "year": 1975,
     "price": 11.99,
-    "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg"
+    "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg",
+    "description": "A Night at the Opera is the fourth studio album by the British rock band Queen, released in 1975. The album features a diverse range of musical styles and includes the iconic 'Bohemian Rhapsody,' known for its operatic sections and rock elements."
   },
+
   {
     "id": "nirvana-nevermind",
     "band_name": "Nirvana",
@@ -51,8 +59,10 @@
     "album_name": "Nevermind",
     "year": 1991,
     "price": 9.99,
-    "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg"
+    "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg",
+    "description": "Nevermind is the second studio album by the American rock band Nirvana, released in 1991. The album marked a significant shift in the music landscape, popularizing grunge and featuring the iconic track 'Smells Like Teen Spirit.'"
   },
+
   {
     "id": "the-rolling-stones-exile-on-main-st",
     "band_name": "The Rolling Stones",
@@ -60,8 +70,10 @@
     "album_name": "Exile on Main St.",
     "year": 1972,
     "price": 13.99,
-    "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg"
+    "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg",
+    "description": "Exile on Main St. is a double album by the English rock band The Rolling Stones, released in 1972. The album captures the band's raw and eclectic sound, blending rock, blues, and soul influences. It includes tracks like 'Tumbling Dice' and 'Happy.'"
   },
+
   {
     "id": "david-bowie-the-rise-and-fall-of-ziggy-stardust",
     "band_name": "David Bowie",
@@ -69,8 +81,10 @@
     "album_name": "The Rise and Fall of Ziggy Stardust",
     "year": 1972,
     "price": 12.99,
-    "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg"
+    "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg",
+    "description": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars is the fifth studio album by David Bowie, released in 1972. The album introduces Bowie's alter ego Ziggy Stardust and includes tracks like 'Starman' and 'Suffragette City.'"
   },
+
   {
     "id": "bob-marley-the-wailers-legend",
     "band_name": "Bob Marley & The Wailers",
@@ -78,8 +92,10 @@
     "album_name": "Legend",
     "year": 1984,
     "price": 11.99,
-    "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg"
+    "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg",
+    "description": "Legend is a compilation album by Bob Marley & The Wailers, released in 1984. The album features some of Marley's most iconic tracks, including 'One Love,' 'No Woman, No Cry,' and 'Redemption Song.' It serves as a timeless introduction to reggae music."
   },
+
   {
     "id": "u2-the-joshua-tree",
     "band_name": "U2",
@@ -87,8 +103,10 @@
     "album_name": "The Joshua Tree",
     "year": 1987,
     "price": 14.99,
-    "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg"
+    "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg",
+    "description": "The Joshua Tree is the fifth studio album by the Irish rock band U2, released in 1987. The album is known for its introspective and politically charged lyrics, as well as its anthemic rock sound. It includes hits like 'With or Without You' and 'Where the Streets Have No Name.'"
   },
+
   {
     "id": "prince-purple-rain",
     "band_name": "Prince",
@@ -96,8 +114,10 @@
     "album_name": "Purple Rain",
     "year": 1984,
     "price": 10.99,
-    "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg"
+    "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg",
+    "description": "Purple Rain is the sixth studio album by Prince, released in 1984. The album is the soundtrack to the film of the same name and is considered one of the greatest albums of all time. It features the iconic title track 'Purple Rain' and other hits like 'When Doves Cry.'"
   },
+
   {
     "id": "radiohead-ok-computer",
     "band_name": "Radiohead",
@@ -105,6 +125,7 @@
     "album_name": "OK Computer",
     "year": 1997,
     "price": 11.99,
-    "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg"
+    "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg",
+    "description": "OK Computer is the third studio album by Radiohead, released in 1997. The album is known for its experimental and innovative sound, combining alternative rock with electronic elements. It includes tracks like 'Paranoid Android' and 'Karma Police.'"
   }
 ]
