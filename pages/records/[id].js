@@ -1,6 +1,7 @@
 import { useRouter } from "next/router";
 import recordsData from "../../public/records.json";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function RecordDetails() {
   const router = useRouter();
@@ -13,9 +14,9 @@ export default function RecordDetails() {
 
   return (
     <div className="record-details-container">
-      <a href="/" className="home-button">
+      <Link href="/" className="home-button">
         Home
-      </a>
+      </Link>
       <h1>{record.album_name}</h1>
       <Image src={record.photo} alt="Album Cover" width={300} height={300} />
       <p>Band: {record.band_name}</p>
