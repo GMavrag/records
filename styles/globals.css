@@ -1,64 +1,91 @@
-/* globals.css or component-specific CSS */
+/* styles/globals.css */
+
+/* Body styles */
 body {
-  background-color: #2b2b2b; /* Dark gray background color */
-  color: #fff; /* White text color */
-  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
 }
 
+/* Header styles */
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Album card styles */
 ul {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   padding: 0;
 }
 
 li {
-  background-color: #333; /* Darker gray for each album record */
-  border-radius: 8px;
-  padding: 16px;
-  margin-bottom: 16px;
-  display: flex;
-  flex-direction: column; /* Display details below the image */
-  align-items: center;
+  margin: 1rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 250px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Album cover and band name overlay */
+.album-cover {
+  position: relative;
+}
+
+.album-cover img {
+  width: 100%;
+  height: auto;
+}
+
+.band-name-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Details link */
+.details-link {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.details-link:hover {
+  background-color: #555;
+}
+
+/* Album details */
+.album-details {
+  padding: 1rem;
   text-align: center;
 }
 
-.album-cover {
-  position: relative; /* To position band name over the image */
-  width: 150px;
-  height: 150px;
-  margin-bottom: 12px;
-}
-
-.band-name {
-  position: absolute; /* Position band name over the image */
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
-  padding: 8px;
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-
-.album-details {
-  flex: 1;
-}
-
-.album-details p {
-  margin: 4px 0;
-}
-
-.genre {
-  font-size: 1rem;
-}
-
-.album-name {
-  font-size: 1.1rem;
-}
-
-.year {
-  font-size: 1rem;
-}
-
-.price {
-  font-size: 1.1rem;
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  li {
+    width: calc(50% - 2rem);
+  }
 }
