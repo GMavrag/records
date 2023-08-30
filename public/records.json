@@ -1,5 +1,6 @@
 [
   {
+    "id": "the-beatles-abbey-road",
     "band_name": "The Beatles",
     "genre": "Rock",
     "album_name": "Abbey Road",
@@ -8,6 +9,7 @@
     "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg"
   },
   {
+    "id": "pink-floyd-dark-side-moon",
     "band_name": "Pink Floyd",
     "genre": "Progressive Rock",
     "album_name": "The Dark Side of the Moon",
@@ -16,6 +18,7 @@
     "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/The_Dark_Side_of_the_Moon_Cover.svg/220px-The_Dark_Side_of_the_Moon_Cover.svg.png"
   },
   {
+    "id": "michael-jackson-thriller",
     "band_name": "Michael Jackson",
     "genre": "Pop",
     "album_name": "Thriller",
@@ -24,6 +27,7 @@
     "photo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/55/Michael_Jackson_-_Thriller.png/220px-Michael_Jackson_-_Thriller.png"
   },
   {
+    "id": "led-zeppelin-led-zeppelin-iv",
     "band_name": "Led Zeppelin",
     "genre": "Rock",
     "album_name": "Led Zeppelin IV",
@@ -32,6 +36,7 @@
     "photo": "https://upload.wikimedia.org/wikipedia/el/thumb/7/77/LedZeppelinFourSymbols.jpg/220px-LedZeppelinFourSymbols.jpg"
   },
   {
+    "id": "queen-a-night-at-the-opera",
     "band_name": "Queen",
     "genre": "Rock",
     "album_name": "A Night at the Opera",
@@ -40,6 +45,7 @@
     "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg"
   },
   {
+    "id": "nirvana-nevermind",
     "band_name": "Nirvana",
     "genre": "Grunge",
     "album_name": "Nevermind",
@@ -48,6 +54,7 @@
     "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg"
   },
   {
+    "id": "the-rolling-stones-exile-on-main-st",
     "band_name": "The Rolling Stones",
     "genre": "Rock",
     "album_name": "Exile on Main St.",
@@ -56,6 +63,7 @@
     "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg"
   },
   {
+    "id": "david-bowie-the-rise-and-fall-of-ziggy-stardust",
     "band_name": "David Bowie",
     "genre": "Rock",
     "album_name": "The Rise and Fall of Ziggy Stardust",
@@ -64,6 +72,7 @@
     "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg"
   },
   {
+    "id": "bob-marley-the-wailers-legend",
     "band_name": "Bob Marley & The Wailers",
     "genre": "Reggae",
     "album_name": "Legend",
@@ -72,6 +81,7 @@
     "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg"
   },
   {
+    "id": "u2-the-joshua-tree",
     "band_name": "U2",
     "genre": "Rock",
     "album_name": "The Joshua Tree",
@@ -80,6 +90,7 @@
     "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg"
   },
   {
+    "id": "prince-purple-rain",
     "band_name": "Prince",
     "genre": "Pop",
     "album_name": "Purple Rain",
@@ -88,6 +99,7 @@
     "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg"
   },
   {
+    "id": "radiohead-ok-computer",
     "band_name": "Radiohead",
     "genre": "Alternative Rock",
     "album_name": "OK Computer",
