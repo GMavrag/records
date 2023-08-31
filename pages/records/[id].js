@@ -1,7 +1,8 @@
 import { useRouter } from "next/router";
-import recordsData from "../../public/records.json";
 import Image from "next/image";
 import Link from "next/link";
+import styles from "../../styles/record-details.module.css";
+import recordsData from "../../public/records.json";
 
 export default function RecordDetails() {
   const router = useRouter();
@@ -13,16 +14,31 @@ export default function RecordDetails() {
   }
 
   return (
-    <div className="record-details-container">
-      <Link href="/" className="home-button">
-        Home
-      </Link>
+    <div className={styles.albumDetailsContainer}>
       <h1>{record.album_name}</h1>
-      <Image src={record.photo} alt="Album Cover" width={300} height={300} />
+      <div className={styles.albumCoverContainer}>
+        <Image
+          src={record.photo}
+          alt="Album Cover"
+          width={200}
+          height={200}
+          className={styles.albumDetailsPhoto}
+        />
+      </div>
+      <div className={styles.albumDescriptionBox}>
+        <h2 className={styles.descriptionHeader}>Description</h2>
+        <p className={styles.descriptionText}>{record.description}</p>
+        <button className={styles.addToBagButton}>
+          Add to My Shopping Bag
+        </button>
+      </div>
       <p>Band: {record.band_name}</p>
       <p>Genre: {record.genre}</p>
       <p>Year: {record.year}</p>
       <p>Price: {record.price}€</p>
+      <Link href="/" className="home-button">
+        Home
+      </Link>
     </div>
   );
 }
