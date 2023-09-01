@@ -7,7 +7,7 @@ export default function HomePage({ data }) {
       {data.map((record) => (
         <li key={record.id} className="album-card">
           <div className="album-cover">
-            <a href={`/records/${record.id}`}>
+            <a href={`/records/${record._id}`}>
               <Image
                 src={record.photo}
                 alt="Album Cover"
