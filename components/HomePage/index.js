@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 export default function HomePage({ data }) {
+  console.log(data);
   return (
     <ul className="album-list">
       {data.map((record) => (
