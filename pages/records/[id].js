@@ -2,14 +2,17 @@ import { useRouter } from "next/router";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "../../styles/record-details.module.css";
-import recordsData from "../../public/records.json";
+import useSWR from "swr";
 
+const fetcher = (...args) => fetch(...args).then((res) => res.json());
 export default function RecordDetails() {
   const router = useRouter();
   const { id } = router.query;
-  const record = recordsData.find((rec) => rec.id === id);
 
-  if (!record) {
+  /* const record = recordsData.find((rec) => rec.id === id); */
+  const { isLoading, data: record } = useSWR(`/api/records/${id}`, fetcher);
+
+  if (isLoading) {
     return <p>Loading...</p>;
   }
 
