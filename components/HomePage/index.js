@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function HomePage({ data }) {
   console.log(data);
@@ -7,7 +8,7 @@ export default function HomePage({ data }) {
       {data.map((record) => (
         <li key={record.id} className="album-card">
           <div className="album-cover">
-            <a href={`/records/${record._id}`}>
+            <Link href={`/records/${record._id}`}>
               <Image
                 src={record.photo}
                 alt="Album Cover"
@@ -15,12 +16,12 @@ export default function HomePage({ data }) {
                 height={150}
               />
               <div className="band-name-overlay">{record.band_name}</div>
-            </a>
+            </Link>
           </div>
           <div className="album-details">
-            <a href={`/records/${record.id}`} className="details-link">
+            <Link href={`/records/${record._id}`} className="details-link">
               DETAILS
-            </a>
+            </Link>
             <p className="genre">GENRE: {record.genre}</p>
             <p className="album-name">ALBUM: {record.album_name}</p>
             <p className="year">YEAR: {record.year}</p>
