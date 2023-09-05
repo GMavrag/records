@@ -1,5 +1,7 @@
+import Login from "@/components/Login";
 import "@/styles/globals.css";
 import useSWR from "swr";
+import { SessionProvider } from "next-auth/react";
 
 const fetcher = (...args) => fetch(...args).then((res) => res.json());
 
@@ -10,5 +12,12 @@ export default function App({ Component, pageProps }) {
   }
   console.log(data);
 
-  return <Component {...pageProps} data={data} />;
+  return (
+    <>
+      <SessionProvider session={pageProps.session}>
+        <Login />
+        <Component {...pageProps} data={data} />
+      </SessionProvider>
+    </>
+  );
 }
