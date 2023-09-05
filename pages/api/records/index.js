@@ -1,25 +1,36 @@
-// pages/api/records/index.js
 import dbConnect from "../../../db/connect";
 import Recordsdata from "../../../db/models/recordsdata";
-
 export default async function handler(request, response) {
   await dbConnect();
 
   if (request.method === "GET") {
     const records = await Recordsdata.find();
+    console.log(records);
     return response.status(200).json(records);
-  } else if (request.method === "POST") {
-    const recordData = JSON.parse(request.body);
+  }
 
+  if (request.method === "POST") {
     try {
-      const record = new Recordsdata(recordData);
-      await record.save();
+      const { album_name, band_name, genre, year, price, photo, description } =
+        request.body;
 
-      return response
-        .status(201)
-        .json({ message: "Record added successfully" });
+      const newRecord = new Recordsdata({
+        album_name,
+        band_name,
+        genre,
+        year,
+        price,
+        photo,
+        description,
+      });
+
+      await newRecord.save();
+      return response.status(201).json({ message: "record created" });
     } catch (error) {
-      return response.status(400).json({ message: "Error adding record" });
+      console.error("Error adding record:", error);
+      return response
+        .status(400)
+        .json({ message: "Error adding record", error });
     }
   } else {
     return response.status(405).json({ message: "Method not allowed" });
