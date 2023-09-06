@@ -111,6 +111,7 @@ export default function RecordForm() {
       />
 
       {/* Textarea for description */}
+      <h6>Description:</h6>
       <textarea
         name="description"
         placeholder="Description"
