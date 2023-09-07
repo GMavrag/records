@@ -1,8 +1,5 @@
-// components/Header.js
-
 import Login from "./Login";
 import Link from "next/link";
-
 export default function Header() {
   return (
     <header>
@@ -16,7 +13,9 @@ export default function Header() {
         <Link href="/add-record">
           <button className="add-record-button">Add a Record</button>
         </Link>
-        <p>Card baskettt</p>
+        <Link href="/records-basket">
+          <h6>Basket</h6>
+        </Link>
       </div>
     </header>
   );
