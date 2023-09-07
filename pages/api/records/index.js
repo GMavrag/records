@@ -5,7 +5,7 @@ export default async function handler(request, response) {
 
   if (request.method === "GET") {
     const records = await Recordsdata.find();
-    console.log(records);
+
     return response.status(200).json(records);
   }
 
