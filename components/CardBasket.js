@@ -31,12 +31,13 @@ export default function CardBasket({ data }) {
         {userRecords.map((record) => (
           <li key={record._id}>
             <h4>{record.album_name}</h4>
-            <h6>{record.price}</h6>
+            <h5>{record.band_name}</h5>
+            <h6>{record.price} €</h6>
           </li>
         ))}
       </ul>
       <h3>
-        Total:{" "}
+        Total €:{" "}
         {userRecords.reduce((acc, val) => {
           return acc + val.price;
         }, 0)}
