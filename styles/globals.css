@@ -108,7 +108,7 @@ li:hover {
   text-align: center;
 }
 
-/* Responsive styles */
+/* Responsive styles test */
 @media screen and (max-width: 768px) {
   li {
     width: calc(50% - 2rem);
