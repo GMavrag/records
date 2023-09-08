@@ -48,7 +48,7 @@
     "album_name": "A Night at the Opera",
     "year": 1975,
     "price": 11.99,
-    "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg",
+    "photo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4d/Queen_A_Night_At_The_Opera.png/220px-Queen_A_Night_At_The_Opera.png",
     "description": "A Night at the Opera is the fourth studio album by the British rock band Queen, released in 1975. The album features a diverse range of musical styles and includes the iconic 'Bohemian Rhapsody,' known for its operatic sections and rock elements."
   },
 
@@ -59,7 +59,7 @@
     "album_name": "Nevermind",
     "year": 1991,
     "price": 9.99,
-    "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg",
+    "photo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b7/NirvanaNevermindalbumcover.jpg/220px-NirvanaNevermindalbumcover.jpg",
     "description": "Nevermind is the second studio album by the American rock band Nirvana, released in 1991. The album marked a significant shift in the music landscape, popularizing grunge and featuring the iconic track 'Smells Like Teen Spirit.'"
   },
 
@@ -70,7 +70,7 @@
     "album_name": "Exile on Main St.",
     "year": 1972,
     "price": 13.99,
-    "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg",
+    "photo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/ExileMainSt.jpg/220px-ExileMainSt.jpg",
     "description": "Exile on Main St. is a double album by the English rock band The Rolling Stones, released in 1972. The album captures the band's raw and eclectic sound, blending rock, blues, and soul influences. It includes tracks like 'Tumbling Dice' and 'Happy.'"
   },
 
@@ -81,7 +81,7 @@
     "album_name": "The Rise and Fall of Ziggy Stardust",
     "year": 1972,
     "price": 12.99,
-    "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg",
+    "photo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/01/ZiggyStardust.jpg/220px-ZiggyStardust.jpg",
     "description": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars is the fifth studio album by David Bowie, released in 1972. The album introduces Bowie's alter ego Ziggy Stardust and includes tracks like 'Starman' and 'Suffragette City.'"
   },
 
@@ -92,7 +92,7 @@
     "album_name": "Legend",
     "year": 1984,
     "price": 11.99,
-    "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg",
+    "photo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/BobMarley-Legend.jpg/220px-BobMarley-Legend.jpg",
     "description": "Legend is a compilation album by Bob Marley & The Wailers, released in 1984. The album features some of Marley's most iconic tracks, including 'One Love,' 'No Woman, No Cry,' and 'Redemption Song.' It serves as a timeless introduction to reggae music."
   },
 
@@ -103,7 +103,7 @@
     "album_name": "The Joshua Tree",
     "year": 1987,
     "price": 14.99,
-    "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg",
+    "photo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/The_Joshua_Tree.png/220px-The_Joshua_Tree.png",
     "description": "The Joshua Tree is the fifth studio album by the Irish rock band U2, released in 1987. The album is known for its introspective and politically charged lyrics, as well as its anthemic rock sound. It includes hits like 'With or Without You' and 'Where the Streets Have No Name.'"
   },
 
@@ -114,7 +114,7 @@
     "album_name": "Purple Rain",
     "year": 1984,
     "price": 10.99,
-    "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg",
+    "photo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/Princepurplerain.jpg/220px-Princepurplerain.jpg",
     "description": "Purple Rain is the sixth studio album by Prince, released in 1984. The album is the soundtrack to the film of the same name and is considered one of the greatest albums of all time. It features the iconic title track 'Purple Rain' and other hits like 'When Doves Cry.'"
   },
 
@@ -125,7 +125,7 @@
     "album_name": "OK Computer",
     "year": 1997,
     "price": 11.99,
-    "photo": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg",
+    "photo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Radioheadokcomputer.png/220px-Radioheadokcomputer.png",
     "description": "OK Computer is the third studio album by Radiohead, released in 1997. The album is known for its experimental and innovative sound, combining alternative rock with electronic elements. It includes tracks like 'Paranoid Android' and 'Karma Police.'"
   }
 ]
