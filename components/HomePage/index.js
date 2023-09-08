@@ -6,7 +6,7 @@ export default function HomePage({ data }) {
   return (
     <ul className="album-list">
       {data?.map((record) => (
-        <li key={record.id} className="album-card">
+        <li key={record._id} className="album-card">
           <div className="album-cover">
             <Link href={`/records/${record._id}`}>
               <Image

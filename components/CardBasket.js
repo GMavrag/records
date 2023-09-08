@@ -5,8 +5,11 @@ export default function CardBasket({ data }) {
   const { data: session } = useSession();
   useEffect(() => {
     async function fetchBagItems() {
+      if (!session) {
+        return;
+      }
       try {
-        const response = await fetch(`/api/users?id=${session?.user.id}`);
+        const response = await fetch(`/api/users?id=${session.user.id}`);
         const userData = await response.json();
         console.log(userData);
         if (userData.user.bag) {
@@ -17,7 +20,7 @@ export default function CardBasket({ data }) {
       }
     }
     fetchBagItems();
-  }, [session?.user.id]);
+  }, [session]);
 
   if (!session) {
     return <h4>Please Sign In</h4>;
