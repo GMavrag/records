@@ -5,7 +5,7 @@ export default function Header() {
     <header>
       <div className="left-header">
         <Link href="/">
-          <h3>Records store for all</h3>
+          <h1>Records store for all</h1>
         </Link>
       </div>
       <div className="right-header">
@@ -14,7 +14,7 @@ export default function Header() {
           <button className="add-record-button">Add a Record</button>
         </Link>
         <Link href="/records-basket">
-          <h6>Basket</h6>
+          <h4>Basket</h4>
         </Link>
       </div>
     </header>
