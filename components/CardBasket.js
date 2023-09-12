@@ -1,10 +1,8 @@
 import { useSession } from "next-auth/react";
 import { useState, useEffect } from "react";
-
 export default function CardBasket({ data }) {
   const [bagItems, setBagItems] = useState([]);
   const { data: session } = useSession();
-
   useEffect(() => {
     async function fetchBagItems() {
       if (!session) {
@@ -13,7 +11,6 @@ export default function CardBasket({ data }) {
       try {
         const response = await fetch(`/api/users?id=${session.user.id}`);
         const userData = await response.json();
-        console.log(userData);
         if (userData.user.bag) {
           setBagItems(userData.user.bag);
         }
@@ -22,12 +19,11 @@ export default function CardBasket({ data }) {
       }
     }
     fetchBagItems();
-  }, [session]);
+  }, [session, bagItems]);
 
   async function deleteRecord(id) {
     try {
       const method = "PATCH";
-
       const response = await fetch("/api/bag", {
         method,
         headers: {
@@ -37,6 +33,7 @@ export default function CardBasket({ data }) {
       });
       if (response.ok) {
         await response.json();
+        setBagItems(userData.user.bag);
       } else {
         console.error(`Error: ${response.status}`);
       }
@@ -44,7 +41,6 @@ export default function CardBasket({ data }) {
       console.error(error);
     }
   }
-
   if (!session) {
     return <h4>Please Sign In</h4>;
   }
@@ -63,9 +59,11 @@ export default function CardBasket({ data }) {
       </ul>
       <h3>
         Total €:{" "}
-        {userRecords.reduce((acc, val) => {
-          return acc + val.price;
-        }, 0)}
+        {userRecords
+          .reduce((acc, val) => {
+            return acc + val.price;
+          }, 0)
+          .toFixed(2)}
       </h3>
     </>
   );
