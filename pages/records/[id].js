@@ -22,6 +22,7 @@ export default function RecordDetails() {
   const { id } = router.query;
 
   /* const record = recordsData.find((rec) => rec.id === id); */
+
   const { isLoading, data: record } = useSWR(`/api/records/${id}`, fetcher);
   const { data: session } = useSession();
 
@@ -30,22 +31,26 @@ export default function RecordDetails() {
   }
 
   async function updateBag() {
-    try {
-      const method = "POST";
+    if (session) {
+      try {
+        const method = "POST";
 
-      const response = await fetch("/api/bag", {
-        method,
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ id }),
-      });
+        const response = await fetch("/api/bag", {
+          method,
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ id }),
+        });
 
-      if (response.ok) {
-        handleBag(id);
+        if (response.ok) {
+          handleBag(id);
+        }
+      } catch (error) {
+        console.error(error);
       }
-    } catch (error) {
-      console.error(error);
+    } else {
+      alert("Sign in to add to cart");
     }
   }
 
