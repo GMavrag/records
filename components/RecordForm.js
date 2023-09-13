@@ -101,7 +101,7 @@ export default function RecordForm() {
         required
       />
       <h6>Photo:</h6>
-      <h12> (Please be responsible and use photos from wiki..!)</h12>
+      <h5> (Please be responsible and use photos from wiki..!)</h5>
       <input
         type="text"
         name="photo"

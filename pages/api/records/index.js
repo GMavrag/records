@@ -26,7 +26,7 @@ export default async function handler(request, response) {
     ids = ids.map((id) => new Types.ObjectId(id));
 
     const toDelete = await Recordsdata.deleteMany({ _id: { $in: ids } });
-    response.status(200).json(toDelete);
+    return response.status(200).json(toDelete);
   }
 
   if (request.method === "POST") {
