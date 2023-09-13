@@ -1,5 +1,7 @@
 import { useSession } from "next-auth/react";
 import { useState, useEffect } from "react";
+import BuyButton from "./HomePage/BuyButton.js";
+
 export default function CardBasket({ data }) {
   const [bagItems, setBagItems] = useState([]);
   const { data: session } = useSession();
@@ -19,7 +21,7 @@ export default function CardBasket({ data }) {
       }
     }
     fetchBagItems();
-  }, [session, bagItems]);
+  }, [session]);
 
   async function deleteRecord(id) {
     try {
@@ -31,9 +33,12 @@ export default function CardBasket({ data }) {
         },
         body: JSON.stringify({ id }),
       });
+
       if (response.ok) {
         await response.json();
-        setBagItems(userData.user.bag);
+        setBagItems((prevBagItems) =>
+          prevBagItems.filter((item) => item !== id)
+        );
       } else {
         console.error(`Error: ${response.status}`);
       }
@@ -44,27 +49,35 @@ export default function CardBasket({ data }) {
   if (!session) {
     return <h4>Please Sign In</h4>;
   }
+
   const userRecords = data.filter((record) => bagItems.includes(record._id));
   return (
     <>
-      <ul>
-        {userRecords.map((record) => (
-          <li key={record._id}>
-            <h4>{record.album_name}</h4>
-            <h5>{record.band_name}</h5>
-            <h6>{record.price} €</h6>
-            <button onClick={() => deleteRecord(record._id)}>Delete</button>
-          </li>
-        ))}
-      </ul>
-      <h3>
-        Total €:{" "}
-        {userRecords
-          .reduce((acc, val) => {
-            return acc + val.price;
-          }, 0)
-          .toFixed(2)}
-      </h3>
+      {userRecords.length ? (
+        <>
+          <ul>
+            {userRecords.map((record) => (
+              <li key={record._id}>
+                <h4>{record.album_name}</h4>
+                <h5>{record.band_name}</h5>
+                <h6>{record.price} €</h6>
+                <button onClick={() => deleteRecord(record._id)}>Delete</button>
+              </li>
+            ))}
+          </ul>
+          <h3>
+            Total €:{" "}
+            {userRecords
+              .reduce((acc, val) => {
+                return acc + val.price;
+              }, 0)
+              .toFixed(2)}
+          </h3>
+          <BuyButton userRecords={userRecords} userId={session.user.id} />
+        </>
+      ) : (
+        <h4>You have no records in your bag</h4>
+      )}
     </>
   );
 }
