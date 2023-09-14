@@ -57,7 +57,7 @@ export default function CardBasket({ data }) {
         <>
           <ul>
             {userRecords.map((record) => (
-              <li key={record._id}>
+              <li className="basketItem" key={record._id}>
                 <h4>{record.album_name}</h4>
                 <h5>{record.band_name}</h5>
                 <h6>{record.price} €</h6>
