@@ -11,13 +11,14 @@ export default function App({ Component, pageProps }) {
   if (isLoading) {
     return <h1>Loading</h1>;
   }
-  console.log(data);
 
   return (
     <>
       <SessionProvider session={pageProps.session}>
         <Header />
-        <Component {...pageProps} data={data} />
+        <div className="wraper">
+          <Component {...pageProps} data={data} />
+        </div>
       </SessionProvider>
     </>
   );
