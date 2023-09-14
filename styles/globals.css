@@ -60,7 +60,6 @@ ul {
 
 li {
   margin: 1rem;
-  padding: 8px;
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -72,6 +71,10 @@ li {
 li:hover {
   transform: translateY(-5px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.basketItem {
+  padding: 8px;
 }
 
 /* Album cover and band name overlay */
