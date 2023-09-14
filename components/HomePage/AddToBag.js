@@ -33,7 +33,6 @@ export default function AddToBag() {
     } else {
       setBagItems(id);
     }
-    console.log(bagItems);
   }
 
   async function updateBag() {

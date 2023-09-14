@@ -8,7 +8,7 @@ export default function Login() {
         <h3>
           <img
             src={session.user.image}
-            style={{ width: "100px", borderRadius: "50%" }}
+            style={{ width: "60px", borderRadius: "50%" }}
           />
           Signed in as {session.user.name}
         </h3>

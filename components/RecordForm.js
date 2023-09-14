@@ -55,7 +55,7 @@ export default function RecordForm() {
   return (
     <form onSubmit={handleSubmit}>
       {/* Input fields for album details */}
-      <h6>Album Name: </h6>
+      <h4>Album Name: </h4>
       <input
         type="text"
         name="album_name"
@@ -64,7 +64,7 @@ export default function RecordForm() {
         onChange={handleChange}
         required
       />
-      <h6>Band Name </h6>
+      <h4>Band Name </h4>
       <input
         type="text"
         name="band_name"
@@ -73,7 +73,7 @@ export default function RecordForm() {
         onChange={handleChange}
         required
       />
-      <h6>Genre: </h6>
+      <h4>Genre: </h4>
       <input
         type="text"
         name="genre"
@@ -82,7 +82,7 @@ export default function RecordForm() {
         onChange={handleChange}
         required
       />
-      <h6>Year: </h6>
+      <h4>Year: </h4>
       <input
         type="number"
         name="year"
@@ -91,7 +91,7 @@ export default function RecordForm() {
         onChange={handleChange}
         required
       />
-      <h6>Price: </h6>
+      <h4>Price: </h4>
       <input
         type="number"
         name="price"
@@ -100,7 +100,7 @@ export default function RecordForm() {
         onChange={handleChange}
         required
       />
-      <h6>Photo:</h6>
+      <h4>Photo:</h4>
       <h5> (Please be responsible and use photos from wiki..!)</h5>
       <input
         type="text"
@@ -112,7 +112,7 @@ export default function RecordForm() {
       />
 
       {/* Textarea for description */}
-      <h6>Description:</h6>
+      <h4>Description:</h4>
       <textarea
         name="description"
         placeholder="Description"

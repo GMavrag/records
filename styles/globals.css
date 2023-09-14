@@ -16,6 +16,11 @@ header {
   text-align: center;
 }
 
+button {
+  background-color: lightblue;
+  padding: 8px;
+}
+
 /* "Records Store" text styles */
 .left-header h1 {
   font-size: 36px;
@@ -35,6 +40,10 @@ header {
   transition: color 0.3s;
 }
 
+.wraper {
+  padding: 10px;
+}
+
 /* Change color of "Basket" on hover (pressed) */
 .right-header h4:hover {
   color: #ff0000;
@@ -51,6 +60,7 @@ ul {
 
 li {
   margin: 1rem;
+  padding: 8px;
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
