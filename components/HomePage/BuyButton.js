@@ -15,7 +15,7 @@ export default function BuyButton({ userRecords, userId }) {
       body: JSON.stringify({ userId }),
     });
     alert(
-      "THANK YOU for supporting RECORDS STORE!! Please check your email to receive your Records!!!"
+      "THANK YOU for supporting RECORDS STORE!! Please check your email to receive your Records!!!!"
     );
   }
 
