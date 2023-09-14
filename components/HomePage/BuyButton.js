@@ -14,8 +14,9 @@ export default function BuyButton({ userRecords, userId }) {
       },
       body: JSON.stringify({ userId }),
     });
-    console.log("BUTTON");
-    location.reload();
+    alert(
+      "THANK YOU for supporting RECORDS STORE!! Please check your email to receive your Records!!!"
+    );
   }
 
   return <button onClick={() => deleteRecords(ids)}>Buy Records</button>;
