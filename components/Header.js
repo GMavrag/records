@@ -14,7 +14,7 @@ export default function Header() {
           <button className="add-record-button">Add a Record</button>
         </Link>
         <Link href="/records-basket">
-          <h4>Basket</h4>
+          <h4>Shopping Bag</h4>
         </Link>
       </div>
     </header>
