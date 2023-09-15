@@ -56,7 +56,7 @@ export default function AddToBag() {
         console.error(error);
       }
     } else {
-      alert("Sign in to add to cart");
+      alert("Sign in to add to Shopping Bag!");
     }
   }
 
