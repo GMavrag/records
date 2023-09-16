@@ -49,10 +49,6 @@ export default function CardBasket({ data }) {
   if (!session) {
     return <h4>Please Sign In</h4>;
   }
-  console.log("------------------------------");
-  console.log(data);
-  console.log("------------------------------");
-
   const userRecords = data.filter((record) => bagItems.includes(record._id));
   return (
     <>
